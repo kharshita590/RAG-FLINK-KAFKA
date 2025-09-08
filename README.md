@@ -1,9 +1,9 @@
 # RAG-FLINK-KAFKA
-USE PYTHON 3.11.5
+USE PYTHON 3.11 or <=11
 
 Clone The Repository
 
-git clone 
+git clone https://github.com/kharshita590/RAG-FLINK-KAFKA
 cd rag 
 python -m venv venv
 source venv/bin/activate
