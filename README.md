@@ -1,17 +1,16 @@
-# RAG-FLINK-KAFKA
-USE PYTHON 3.11 or <=11
+## Scripts Overview
 
-Clone The Repository
+- **USE PYTHON 3.11 or <=11**  
 
-git clone https://github.com/kharshita590/RAG-FLINK-KAFKA
-cd rag 
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+- **Clone The repository**  
+  *Description*: git clone https://github.com/kharshita590/RAG-FLINK-KAFKA
+  *Description*: cd rag
+  *Description*: python -m venv venv 
+  *Description*: source venv/bin/activate
+  *Description*: pip install -r requirements.txt
+  *Description*: python -m flink_job.py
+  *Description*: uvicorn app:app --reload
+  *Description*: cd rag-fr
+  *Description*: npm i
+  *Description*: npm run dev
 
-python -m flink_job.py
-uvicorn app:app --reload
-
-cd rag-fr 
-npm i
-npm run dev
